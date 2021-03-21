@@ -15,12 +15,12 @@ int main() {
     char** words;
     int words_count;
 
-    printf("Count of words > ");
+    printf("Count of words >  ");
     scanf("%d",&words_count);
 
     words = allocateMemoryForWordsArray(words_count);
 
-    printf("Words filling: \n\n");
+    printf("\nWords filling: \n\n");
 
     fillWords(words, words_count);
 
